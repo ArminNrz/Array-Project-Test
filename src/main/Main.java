@@ -12,7 +12,7 @@ public class Main {
 		 * if you chose 2 question number two is active
 		 * if you chose 3 question number three is active 
 		 * I use flyWeight pattern*/
-		Question question = FlyWeightPattern.getQuestion(1); // 1-2-3
+		Question question = FlyWeightPattern.getQuestion(3); // 1-2-3
 		question.main();
 	}
 
